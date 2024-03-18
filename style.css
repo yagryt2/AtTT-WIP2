@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     font-family: "Noto Sans JP", Segoe UI, sans-serif;
 }
+                                                                            /*ниже кнопки*/
 .buttons {
     background-color: #0078d7;
     border: solid;
@@ -21,7 +22,16 @@ body {
     scale: 200%;
     padding: 10px;
     border-radius: 36px;
+    transition: scale 0.8s;
+}                                                                           /*ниже анимации кнопков*/
+.buttons:hover {
+    scale: 175%;
 }
+.buttons:active {
+    scale: 90%;
+}
+
+
 .icons {
     color: #ffb900;
 }
@@ -46,6 +56,16 @@ body {
     flex-grow: 1;
     flex-shrink: 0;
 }
+.item-3:active {
+    
+}
+
+.uploadBorder {
+    border-color: #575757;
+}
+#uploadBorder:hover {
+    border-color: #979797;
+}
 
 #hidden-file-uploader {
     cursor: pointer;
@@ -59,4 +79,7 @@ body {
 
 .output {
     border: solid;
+}
+.output:hover {
+    border-color: #979797;
 }
