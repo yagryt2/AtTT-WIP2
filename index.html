@@ -24,26 +24,7 @@
         }
         #output {
           font-size: 160%;
-          /*padding: 0px;*/
         }
-        /*#mainButton {
-          text-align: center;
-          font-size: 300%;
-          width: 80%;
-          height: 14%;
-          background: #333333;
-          border: outset;
-          border-radius: 36px;
-          color: white;
-
-        }*/
-        /*.mainButtonClass {
-          text-align: center;
-          padding-top: 12%;
-        }*/
-        /*button.hover {
-          color: green;
-        }*/
       </style>
     </head>
   <body>
@@ -56,7 +37,7 @@
           <div class="container">
             <img class="item-1" src="dropDownMenu2.png" style="height: 48px; padding: 16px 0px 0px 16px;">
             <label class="item-2" style="color: #4696f9; font-size: 300%; font-weight: 900;">Аудио в Текст Транскрибатор (AtTT)</label>
-            <img class="item-3" src="ourCodeIcon.png" style="height: 48px; padding: 16px 16px 0px 0px;">
+            <a class="item-3" href="https://webref.ru/example/page/new.html"><img src="ourCodeIcon.png" style="height: 48px; padding: 16px 16px 0px 0px;"> </a>
           </div>
         </div>
       </div>
@@ -71,7 +52,7 @@
             padding-left: 20%;
             text-align: center;
           ">
-            <div class="output" style="border: soled; border-width: 1px">
+            <div class="output" style="border: solid; border-width: 1px; border-color: #575757;">
               <label>
                 <p></p>
                 <py-script>                                                       <!--ВЫПОЛНЕНИЕ ПИТОН КОДА (ВЫВОД ТРАНСКРИПЦИИ) (тут будет...)-->
@@ -90,7 +71,7 @@
           ">
             <div style="flex-shrink: 0;">
 
-              <div style="border: solid; border-width: 1px;">
+              <div class="uploadBorder" style="border: solid; border-width: 1px; border-color: #575757;">
                 <p></p>
                 <label for="upload-audio"> - - - - - - - - - - - - - - - - - - - - - -> Нажмите, чтобы выбрать файл <- - - - - - - - - - - - - - - - - - - - - - </label>                                                                   <!--file choser-->
                 <p></p>
